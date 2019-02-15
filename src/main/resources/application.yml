@@ -43,12 +43,12 @@ agenda:
                 - 'Iván is a Senior Software Engineer and Systems Administrator with 14 years of experience. He is a member of the Grails and Micronaut teams at Object Computing, Inc. (OCI). He discovered Grails 8 years ago and since then he develops almost exclusively using Groovy and Java. He is the creator of some well known Grails plugins like Postgresql-Extensions.'
                 - "He's also the coordinator of the Madrid Groovy User Group (@madridgug), ex-organizer of the [Greach Conference](http://greachconf.com) and a frequent speaker at conferences like Devoxx, Codemotion, RigaDevDays, JavaCro, GeeCon, ConFoo, SpringOne 2GX, Spring IO,.."
         -
-            name: 'Guillaume Laforge'
-            uid: 'guillaume-laforge'
-            twitter: 'glaforge'
-            image: 'https://greach.s3.amazonaws.com/glaforge.jpeg'
+            name: 'Ko Turk'
+            uid: 'koturk'
+            twitter: 'KoTurk77'
+            image: 'https://greach.s3.amazonaws.com/koturk.jpg'
             bio:
-                - 'Apache Groovy co-founder and Developer Advocate for Google Cloud'
+                - 'Ko Turk is a Senior Java Developer at Blue4IT, currently he is working for one of the biggest banks of the Netherlands. He loves to go full stack, creating backend microservices and frontend web applications. Because he likes to know everything about Java, you can find him regularly at the UtrechtJUG or other conferences.'
         -
             name: 'Michael Kutz'
             uid: 'michael-kutz'
@@ -173,7 +173,8 @@ agenda:
             twitter: 'albertoBaron1'
             image: 'https://greach.s3.amazonaws.com/albertoBaron1.jpeg'
             bio:
-                - ''
+                - 'My name is Alberto, senior developer at Salenda for 4 years, working every day with Groovy, Grails, Java and not for a long time, with Micronaut.'
+                - 'Moreover, I try to improve myself learning other ecosystems such us mobile and attending or even preparing talks in events like Greach, T3chfest or Codemotion.'
         -
             name: 'Miguel Ángel García Gómez'
             uid: 'miguel-angel-garcia-gomez'
@@ -211,14 +212,6 @@ agenda:
                 - 'Mercedes Wyss is a software engineer with more than seven years of experience in the backend, frontend and Android development using Java and Kotlin. Currently, she is a CTO at Produactivity, a startup based in Guatemala.'
                 - 'She was previously organizing meetings in Guatemala Java Users Group from 2012 to 2016. Now she has two years an a half focusing on increasing women’s participation in STEAM by running a JDuchess Chapter in Guatemala and is the leader of a Google community (Devs+502).'
                 - 'She is an Oracle Groundbreaker Ambassador and an Auth0 Ambassador, she also has a Duke’s Choice Award in Educational Outreach.'
-#        -
-#            name: 'Cédric Champeau'
-#            uid: 'cedric-champeau'
-#            twitter: 'CedricChampeau'
-#            image: 'https://greach.s3.amazonaws.com/CedricChampeau.jpg'
-#            bio:
-#                - 'Cédric Champeau is a software engineer at Gradle, Inc. , where he is currently focused on implementing next generation dependency management features. He also worked on improving the performance of the build tool. He is committer of Apache Groovy and spent more than 3 years developing full time the language at Pivotal, where he implemented features like the static compiler, traits, Android support, AST transformations or type checking extensions.'
-#                - 'Prior to that, he spent several years in the industry as a user, where he used Groovy in multiple industrial contexts including DSLs for natural language processing, scripting or even workflows.'
         -
             name: 'Nicolás Patarino'
             uid: 'nicolas-patarino'
@@ -248,12 +241,13 @@ agenda:
             bio:
                 - 'Katia Aresti is a software engineer at Red Hat, part of the Infinispan/Datagrid team since 2017. She has been in the field since 2005, most of the time coding as a backend developer in Java and Scala. Katia is very involved in user groups since 2010, she co-organises the french chapter of Duchess since then, and she is very active mentoring and sharing knowledge whenever she can. She is passionate about open-source contributions, dance and acting.'
         -
-            name: 'Felipe Fernandéz'
+            name: 'Felipe Fernández'
             uid: 'felipe-fernandez'
             image: 'https://greach.s3.amazonaws.com/felipefzdz.jpg'
             twitter: 'felipefzdz'
             bio:
-                - "Spanish developer based in Las Palmas de Gran Canaria. I've been working for Gradle as Senior Software Engineer for 2 years on the Gradle Enterprise team. Before of that I used to work for Codurance, a software craftsmanship consultancy located in London."
+                - 'Felipe Fernández is a software engineer at Gradle, Inc. , working on Gradle Enterprise. In there he had exposure to the whole platform, but lately has been focused on release automation, CI reliability and operations.'
+                - 'Before of Gradle, he worked at Codurance, being an active supporter of the Software Craftsmanship values and practices'
     talks:
         -
             uid: 'accelerating-ci'
@@ -618,8 +612,8 @@ agenda:
             title: 'How To Build a Test Lib for a Microservice Based Web Application with Geb & Spock'
             uid: 'how-to-build-a-test-lib-for-a-microservice-based-web-application-with-geb-spock'
             track: 'Microservices & JVM Frameworks'
-            start: '2019-03-30T13:30:00'
-            end: '2019-03-30T14:15:00'
+            start: '2019-03-30T10:15:00'
+            end: '2019-03-30T11:00:00'
             speakers:
                 - 'michael-kutz'
             about:
@@ -628,15 +622,19 @@ agenda:
                 - 'To support these teams, we decided turn our old retired comprehensive test suite into a test library to enable teams to write their own system tests without the need to implement every stupid step in every team.'
                 - "In this talk I'd like to present our lessons learned & developed design patterns from implementing such a test library with Geb & Spock."
         -
-            title: 'A Groovy serverless journey on Google Cloud'
-            uid: 'a-groovy-serverless-journey-on-google-cloud'
+            title: 'The battle of the IDEs'
+            uid: 'the-battle-of-the-ides'
             track: 'Microservices & JVM Frameworks'
-            start: '2019-03-30T09:00:00'
-            end: '2019-03-30T09:45:00'
+            start: '2019-03-30T13:30:00'
+            end: '2019-03-30T14:15:00'
             speakers:
-                - 'guillaume-laforge'
+                - 'koturk'
             about:
-                - 'Lucky the Groovy developer with the lovely frameworks and libraries at their disposal to craft their web apps, APIs or microservices. But where should one deploy those apps? Furthermore, if you don’t want to deal with infrastructure, if you want to scale transparently, and pay only for what you use, is it possible to deploy your apps in a “serverless” fashion? In this presentation, we’ll have a look at how to deploy Groovy functions, apps or containerized payloads on Google Cloud Platform (with App Engine and Cloud Functions), as well as discovering the other useful services you can take advantage of for storing data (with Cloud Firestore), messaging between services (with Pub/Sub), or for monitoring (with Stackdriver).'
+                - 'IntelliJ IDEA is the best IDE! Or is it Eclipse? Netbeans perhaps? Or are you working with Emacs/Vi/VSCode or something else?'
+                - 'Do you recognize the discussion with your colleagues? Why you should start using another IDE! The one that they use of course!'
+                - 'In this session I will show you which IDE you should use (or at least try). Not only based on my opinion but also on that of other developers that filled in the research [What is my favourite IDE and why](https://t.co/VqwdM1C9cu).'
+                - 'There are a lot of cool features you definitely need to see!'
+                - 'Please join my talk and find out!'
         -
             title: "Zipfiles on the Fly with Micronaut"
             uid: 'zipfiles-on-the-fly-with-micronaut'
@@ -659,28 +657,28 @@ agenda:
                 - 'schalk-cronje'
             about:
                 - "Let's talk Asciidoctor, Gradle and Groovy. About what's new in the 2.x releases of the Asciidoctor Gradle plugin, about dealing with Gradle workers, serialising closures. This is not just just a talk about new and esciting feastures, but also about the practically of having to deal with real-world issues when writing plugins for Gradle in Groovy."
-#        -
-#            title: "What's new in Gradle 5?"
-#            uid: 'whats-new-in-gradle-5?'
-#            track: 'Android, Tests & JVM Langs'
-#            start: '2019-03-30T09:00:00'
-#            end: '2019-03-30T09:45:00'
-#            speakers:
-#                - 'cedric-champeau'
-#            about:
-#                - "Gradle continues to evolve to bring faster, precise and reproducible builds tailored to your needs. In particular, we'll focus on what Gradle 5 brings to the game:"
-#                - '- statically-typed Kotlin-based DSL'
-#                - '- faster builds (incremental builds, incremental annotation processing, ...)'
-#                - '- fine-grained transitive dependency management (dependency locking, version alignment, ...)'
-#                - '- new plugin APIs'
-#                - '- and much more!'
-#                - "Don't wait, upgradle your build!"
+        -
+            title: "What's new in Gradle 5?"
+            uid: 'whats-new-in-gradle-5'
+            track: 'Android, Tests & JVM Langs'
+            start: '2019-03-30T09:00:00'
+            end: '2019-03-30T09:45:00'
+            speakers:
+                - 'andres-almiray'
+            about:
+                - "Gradle continues to evolve to bring faster, precise and reproducible builds tailored to your needs. In particular, we'll focus on what Gradle 5 brings to the game:"
+                - '- statically-typed Kotlin-based DSL'
+                - '- faster builds (incremental builds, incremental annotation processing, ...)'
+                - '- fine-grained transitive dependency management (dependency locking, version alignment, ...)'
+                - '- new plugin APIs'
+                - '- and much more!'
+                - "Don't wait, upgradle your build!"
         -
             title: 'Creating Micronaut Configurations'
             uid: 'creating-micronaut-configurations'
             track: 'Microservices & JVM Frameworks'
-            start: '2019-03-30T10:15:00'
-            end: '2019-03-30T11:00:00'
+            start: '2019-03-30T09:00:00'
+            end: '2019-03-30T09:45:00'
             speakers:
                 - 'ivan-lopez'
             about:
